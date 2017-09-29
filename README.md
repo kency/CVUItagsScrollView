@@ -1,6 +1,6 @@
 # CVUItagsScrollView
 ## Usage
-```ruby
+```Objective-C
 /*
 //Copy and add https://github.com/zekunyan/TTGTagCollectionView  first in your project
 //This is a singleLine ScrollView
