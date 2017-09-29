@@ -1,7 +1,8 @@
+/*
+//Copy and add https://github.com/zekunyan/TTGTagCollectionView  first in your project
+//This is a singleLine ScrollView
+*/
 # CVUItagsScrollView
-//Copy and add https://github.com/zekunyan/TTGTagCollectionView  first in your project\n
-//This is a singleLine ScrollView\n
-<code>
 CVUItagsSingleLineView* tagsView=[[CVUItagsSingleLineView alloc]initWithFrame:CGRectMake(0, 0, 200, 24)];  //height 24f is the best display default
 tagsView.tagsDelegate=self;
 [tagsView tagTitlesArray:@[@"标签",@"TAG1",@"TagStringTitle",@"TagStringTitle",@"TagStringTitle",@"TagStringTitle",@"TagStringTitle",@"TagStringTitle"]];
@@ -12,4 +13,3 @@ tagsView.tagsDelegate=self;
     [tagsScrollView setTagAtIndex:index selected:!selected];
    NSLog(@"%@",tagObj.name);
 }
-</code>
