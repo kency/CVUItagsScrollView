@@ -23,6 +23,6 @@ tagsView1.tagsDelegate=self;
 //the tagsDelegate
 -(void)tagsScrollView:(CVUItagsScrollView *)tagsScrollView didSelectTag:(CVTag *)tagObj atIndex:(NSUInteger)index selected:(BOOL)selected{
     [tagsScrollView setTagAtIndex:index selected:!selected];
-   NSLog(@"%@",tagObj.name);
+   NSLog(@"%@",tagObj.tagName);
 }
 ```
